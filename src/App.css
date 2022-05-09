@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(0, 119, 255);
+}
+.App{
+    text-align: center;
+    
+}
+.heading{
+    color: #fff;
+    font-size: 30px;
+    margin: 30px 0px;
+    z-index: 1;
+}
+
+@media (max-width:800px) {
+    .heading{
+       
+        font-size: 35px;
+        margin: 15px 0px;
+    }
+}
